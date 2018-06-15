@@ -43,3 +43,12 @@ def RCtime (PiPin):
 while True:
     print (RCtime(4)) # Measure timing using GPIO4
 ```
+
+## Markdown Table test
+
+| Tables        | Are           | Cool  |    as   | Ice Cream |   and    |
+|:-------------:|:-------------:|:-----:|:-------:|:---------:|:--------:|
+| col 3 is      | right-aligned | $1600 | $600000 |    Arun.  |   Arun.  |
+| col 2 is      | centered      |   $12 |    $345 |     K.    |   Alwyn. |
+| zebra stripes | are neat      |    $1 |    $200 |    Soman. |  Jestin. |
+{: class="cp-responsive"}
