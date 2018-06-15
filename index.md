@@ -52,6 +52,8 @@ while True:
 | col 2 is      | centered      |   $12 |    $345 |     K.    |   Alwyn. |
 | zebra stripes | are neat      |    $1 |    $200 |    Soman. |  Jestin. |
 
+## Table-2
+
 |-----------------+------------+-----------------+----------------|
 | Default aligned |Left aligned| Center aligned  | Right aligned  |
 |-----------------|:-----------|:---------------:|---------------:|
