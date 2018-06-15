@@ -13,3 +13,33 @@ In luctus iaculis metus in tincidunt. Aliquam consequat ligula at ex porttitor, 
 Ut tempus varius urna, ut aliquet ante pellentesque a. Fusce maximus a est non facilisis. Phasellus egestas purus a turpis tristique consectetur. Aliquam vitae leo ac lacus fermentum cursus in sit amet lacus. Pellentesque ut tellus pulvinar, fringilla lectus eu, dictum neque. Vivamus lacus orci, scelerisque quis mattis a, ultricies quis ligula. Quisque cursus cursus tincidunt. Quisque et mauris eget nibh hendrerit aliquam nec vitae quam. Sed risus tellus, vestibulum dignissim eros nec, fermentum viverra elit. Vestibulum sit amet dolor et tortor ullamcorper dapibus quis at odio. Fusce congue erat a purus volutpat laoreet eget vel odio. Etiam eu semper odio. Praesent bibendum accumsan quam eu scelerisque. Donec pellentesque tellus ut est venenatis, non feugiat odio malesuada. In hac habitasse platea dictumst.
 
 Aliquam luctus odio ac eros lacinia, quis consectetur purus tincidunt. In lobortis viverra diam, id auctor massa blandit vitae. Etiam facilisis, massa sit amet aliquet feugiat, neque orci euismod velit, sed viverra enim enim ut massa. Phasellus non ligula posuere, maximus risus ac, porta ex. Vivamus eleifend venenatis bibendum. Aliquam consectetur facilisis dui a vehicula. Phasellus elementum lorem in nisl lobortis, ut posuere justo mattis. Maecenas tristique mauris nec leo placerat, id auctor tellus ultrices. Donec mattis sed ipsum id suscipit. In tellus lectus, pharetra quis imperdiet ac, molestie in nulla.
+
+## Syntax Highlighting Test
+
+```python
+import RPi.GPIO as GPIO, time
+
+# Tell the GPIO library to use
+# Broadcom GPIO references
+GPIO.setmode(GPIO.BCM)
+
+# Define function to measure charge time
+def RCtime (PiPin):
+  measurement = 0
+  # Discharge capacitor
+  GPIO.setup(PiPin, GPIO.OUT)
+  GPIO.output(PiPin, GPIO.LOW)
+  time.sleep(0.1)
+
+  GPIO.setup(PiPin, GPIO.IN)
+  # Count loops until voltage across
+  # capacitor reads high on GPIO
+  while (GPIO.input(PiPin) == GPIO.LOW):
+    measurement += 1
+
+  return measurement
+
+# Main program loop
+while True:
+    print (RCtime(4)) # Measure timing using GPIO4
+```
