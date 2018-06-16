@@ -72,3 +72,11 @@ while True:
   <li><a href="#" class="tag">CSS</a></li>
   <li><a href="#" class="tag">JavaScript</a></li>
 </ul>
+
+## Related Posts lists
+
+<ul class="cp-ul">
+  <li>First post</li>
+  <li>Second post</li>
+  <li>Third Post</li>
+</ul>
