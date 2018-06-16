@@ -1,0 +1,23 @@
+- menu: Home
+  link: http://chipprogrammers.github.io
+  icon: fas fa-home
+ 
+- menu: Blog
+  link: https://chipprogrammers.github.io/blog
+  icon: fas fa-pencil-alt
+
+- menu: Docs
+  link: https://chipprogrammers.github.io/Documentation
+  icon: fas fa-file
+  
+- menu: Github
+  link: http://github.com/chipprogrammers
+  icon: fab fa-github
+  
+- menu: Resume
+  link: http://chipprogrammers.github.io/online-cv
+  icon: fa fa-paper-plane
+
+- menu: Sitemap
+  link: https://chipprogrammers.github.io/sitemap.xml
+  icon: fas fa-rss
