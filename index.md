@@ -64,3 +64,11 @@ while True:
 2. Battery 
 3. Single strand wire
 4. Bread board
+
+## Tag Cloud Test
+
+<ul class="tags">
+  <li><a href="#" class="tag">HTML</a></li>
+  <li><a href="#" class="tag">CSS</a></li>
+  <li><a href="#" class="tag">JavaScript</a></li>
+</ul>
