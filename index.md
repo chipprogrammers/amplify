@@ -85,7 +85,7 @@ while True:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis quam vitae ipsum vehicula laoreet eget et turpis. Fusce dapibus vel magna in interdum. Sed euismod luctus lectus et fermentum. Sed efficitur tempor dui. Nulla malesuada risus nec mauris condimentum tempor. Phasellus nulla dolor, condimentum ut sollicitudin non, mattis mattis ipsum. Cras pharetra mi eu mauris aliquet, dignissim faucibus sapien lacinia. Cras at mi nisl. Phasellus ex ipsum, mattis vehicula egestas vehicula, pulvinar nec lorem. Phasellus accumsan lobortis magna, eu condimentum felis. Proin blandit est id nulla efficitur scelerisque. In vehicula nisi vel sapien venenatis, accumsan gravida ex fringilla. Mauris ac consectetur nibh.
 <figure class="figure figure-right">
-<amp-img src="https://unsplash.it/300/400?image=123" alt="chipprogrammer" height="320" width="200" layout="fill"></amp-img>
+<amp-img src="https://unsplash.it/300/400?image=123" alt="chipprogrammer" height="320" width="200" layout="container"></amp-img>
   <figcaption>This image has a caption</figcaption>
 </figure>
 Etiam gravida risus nec ligula dictum ornare scelerisque vestibulum nulla. In eu dui hendrerit, hendrerit arcu in, fringilla turpis. Duis porttitor eros ut lacus tristique pulvinar. Aliquam rhoncus et elit non vulputate. Ut blandit id leo id bibendum. Nullam vel luctus mi. Mauris aliquam sem metus, et congue leo blandit at. Donec sit amet tortor justo. Proin pellentesque at risus in faucibus. Fusce ac augue non elit sollicitudin fermentum in vitae enim. Aenean eget iaculis risus. Pellentesque ultrices felis at dui ornare, at venenatis quam tincidunt.
