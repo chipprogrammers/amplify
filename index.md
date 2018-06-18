@@ -119,7 +119,7 @@ Quisque turpis arcu, lacinia quis odio vitae, pharetra porta ligula. Donec vel d
 </div>
 <div class="clearfix">
 <div class="pager mymt">
-<a class="pull-left" href="#">Next</a>
-<a class="pull-right" href="#">Previous</a>
+<a class="left" href="#">Previous</a>
+<a class="right" href="#">Next</a>
 </div>
 </div>
