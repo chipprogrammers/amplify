@@ -4,7 +4,7 @@ title: Example content for posts
 category: Others
 color: purple
 theme_color: "#9c27b0"
-img: /static/IMG/4.jpg
+img: /static/img/4.jpg
 tags: Jekyll
 ---
 
