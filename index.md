@@ -104,3 +104,20 @@ Quisque volutpat purus arcu, sed vestibulum tortor varius at. Aliquam sagittis q
   <figcaption>This image has also caption</figcaption>
 </figure>
 Quisque turpis arcu, lacinia quis odio vitae, pharetra porta ligula. Donec vel dolor vitae dui vulputate lacinia quis vestibulum nunc. Nam a libero laoreet, gravida magna sed, hendrerit velit. Nam lacinia vehicula vulputate. Sed venenatis erat id ante suscipit, vel viverra nibh vestibulum. Pellentesque vitae laoreet ante. Donec nec dictum enim. Phasellus sodales enim vel urna suscipit venenatis. Fusce eget quam purus. Fusce quis posuere dolor. Nam nisi risus, porta vel mollis nec, scelerisque maximus orci. Vestibulum non ligula vitae erat ullamcorper blandit. Cras commodo commodo tellus eget vestibulum. Suspendisse sollicitudin erat vitae nisl euismod venenatis.
+
+## Pagination and Pager Test
+
+<div class="pagination">
+<a class="active" href="#" >Previous</a>
+<a href="#" >1</a>
+<a href="#" >2</a>
+<a class="active" href="#" >3</a>
+<a href="#" >4</a>
+<a href="#" >5</a>
+<a href="#" >6</a>
+<a class="active" href="#" >Next</a>
+</div>
+<div class="pager mymt">
+<a class="pull-left" href="#">Next</a>
+<a class="pull-right" href="#">Previous</a>
+</div>
