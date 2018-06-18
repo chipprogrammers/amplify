@@ -117,7 +117,9 @@ Quisque turpis arcu, lacinia quis odio vitae, pharetra porta ligula. Donec vel d
 <a href="#" >6</a>
 <a class="active" href="#" >Next</a>
 </div>
+<div class="clearfix">
 <div class="pager mymt">
 <a class="pull-left" href="#">Next</a>
 <a class="pull-right" href="#">Previous</a>
+</div>
 </div>
