@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Welcome
+title: Welcome to Chipprogrammer AMP Pages
+img: /static/img/07.jpg
 ---
 
 <amp-img src="{{ site.baseurl }}/static/img/macos-sierra.jpg" layout="responsive" width="266" height="150"></amp-img>
