@@ -57,7 +57,7 @@
             layout="responsive"
             sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
             resizable
-            src="{{ site.disqus_embedd | prepend: page.url replace: '//', '/' }} ">
+            src="{{  page.url | prepend: site.disqusEmbedd | replace: '//', '/' }} ">
 </amp-iframe>
 </div>
    </main>
