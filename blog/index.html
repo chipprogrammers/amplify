@@ -7,11 +7,11 @@ title: My Blog
    <div class="container">
       {% if page.img_url == true %}
      <figure class="figure figure-left">
-      <amp-img src="{{ post.img }}" alt="post-img" height="200" width="320" layout="intrinsic"></amp-img>
+      <amp-img src="{{ page.img }}" alt="post-img" height="200" width="320" layout="intrinsic"></amp-img>
      </figure>
       {% else %}
      <figure class="figure figure-left">
-      <amp-img src="{{ site.baseurl }}{{ post.img }}" alt="post-img" height="200" width="320" layout="intrinsic"></amp-img>
+      <amp-img src="{{ site.baseurl }}{{ page.img }}" alt="post-img" height="200" width="320" layout="intrinsic"></amp-img>
       </figure>
     {% endif %}
     </div>
