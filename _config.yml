@@ -4,7 +4,7 @@ url: "https://chipprogrammer.github.io"
 baseurl: "/amplify"
 logo: "/static/img/chip.svg"
 markdown: kramdown
-
+disqus_embedd: "https://arunksoman.github.io/disqus-amp/"
 
 
 paginate: 4
