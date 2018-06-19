@@ -57,7 +57,7 @@
             layout="responsive"
             sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
             resizable
-            src="https://chipprogrammers.github.io/disqus-amp/">
+            src="{{ page.url | prepend: '/disqus' | prepend: site.baseurl }}">
 </amp-iframe>
 </div>
    </main>
