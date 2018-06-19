@@ -57,7 +57,7 @@
             layout="responsive"
             sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
             resizable
-            src="https://cdn.rawgit.com/maxxeight/disqusAMP/master/disqus-amp.html">
+            src="{{  page.url | prepend: site.disqusEmbedd | replace: '//', '/' }} ">
     <div overflow tabindex=0 role=button aria-label="Read more">Read more!</div>
 </amp-iframe>
 </div>
