@@ -52,12 +52,12 @@
    <h4>Spread this words via:</h4>
   {% include amp-social-share.html %}
 
- <amp-iframe width="300" height="140"
+ <amp-iframe height="300"
             frameborder="0"
             layout="responsive"
             sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
             resizable
-            src="{{ page.url | prepend: '/disqus' | prepend: site.baseurl }}">
+            src="{{ page.url | prepend: '/disqus' | prepend: site.baseurl | prepend: site.url }}">
 </amp-iframe>
 </div>
    </main>
