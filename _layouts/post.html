@@ -57,7 +57,7 @@
             layout="responsive"
             sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
             resizable
-            src="{{ page.url  | replace: '//', '/' | prepend: site.disqusEmbedd }}">
+            src="{{ page.url |prepend:amp# | prepend: site.disqusEmbedd | replace: '//', '/' }}">
     <div overflow tabindex=0 role=button aria-label="Disqus">Disqus</div>
 </amp-iframe>
 </div>
