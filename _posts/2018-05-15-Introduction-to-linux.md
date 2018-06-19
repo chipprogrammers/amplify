@@ -35,7 +35,7 @@ X/Open specification, there's hope that UNIX and the many other UNIX−like syst
 ### Unix: Milestones
 
 |  Year  |           Event happen                                          |
-|:------:|-----------------------------------------------------------------|
+|--------|-----------------------------------------------------------------|
 |  1957  | Unix operating system project began at Bell laborataries.       |
 |  1957  | Bell laborataries created BESYS operating system to sequence their jobs.|
 |  1964  | Researchers from General Electric, MIT, and Bell Labs created a new general-purpose, multi-user, time-sharing operating system called Multiplexed Information and Computing System(Multics).
@@ -63,8 +63,7 @@ X/Open specification, there's hope that UNIX and the many other UNIX−like syst
 |  1985  | Eighth edition of Unix was released on the basis of the 4.1BSD version. |
 |  1987  | The USDL group, which was renamed AT&T Information Systems (ATTIS) group, released System V Release 3 (SVR3) |
 |  1988  | 9<sup>th</sup> version of Unix was developed, and it was based on the 4.3BSD version. |
-|  1989  | 10<sup>th</sup> version of Unix was developed. |
-{: class="w3-responsive"}
+|  1989  | 10<sup>th</sup> version of Unix was developed. |
 
 {% include MyNote.html note_type="info" span_note="Why C language is named so?" text="<br />It was named &#8220;C&#8221; because its features were derived from an earlier language called &#8220;B &#8221;, which according to Ken Thompson was a stripped-down version of the BCPL programming language which was using B compiler. C came out of Dennis Ritchie's Unix project at AT&T." %}
 
