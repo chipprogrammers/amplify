@@ -17,10 +17,14 @@
       <h1>{{ page.title }}</h1>
       {{ content }}
     </article>
-   </main>
- <div class="m3">
+     <h3>Post is Tagged on:
+     <ul class="tags">
+         {% for tag in page.tags %}
+         <li><a href="{{ site.baseurl }}/tags#{{ tag | slugify }}" class="tag">{{ tag }}</a></li>
+      {% endfor %}
+     </ul>
   {% include amp-social-share.html %}
- </div>
+   </main>
  </div>
   <div class="sm-col sm-col-2">
       second grid
