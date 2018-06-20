@@ -31,14 +31,14 @@ to the `site_tags` variable. -->
     <h2 id="{{ this_word | slugify }}">{{ this_word }}</h2>
     {% for post in site.tags[this_word] %}{% if post.title != null %}
       <div>
-        <span style="float: left;">
+        <span class="left">
           <a href="{{ post.url |prepend:site.baseurl }}">{{ post.title }}</a>
         </span>
-        <span style="float: right;">
+        <span class="right">
           {{ post.date | date_to_string }}
         </span>
       </div>
-      <div style="clear: both;"></div>
+      <div class="clear"></div>
     {% endif %}{% endfor %}
   {% endunless %}{% endfor %}
 </div>
