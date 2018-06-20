@@ -25,7 +25,7 @@ to the `site_tags` variable. -->
 </ul>
 
 <!-- Posts by Tag -->
-<div class="clearfix">
+<div>
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
     <h2 id="{{ this_word | slugify }}">{{ this_word }}</h2>
@@ -38,7 +38,7 @@ to the `site_tags` variable. -->
           {{ post.date | date_to_string }}
         </span>
       </div>
-      <div class="clearflix"></div>
+      <div class="clear"></div>
     {% endif %}{% endfor %}
   {% endunless %}{% endfor %}
 </div>
