@@ -28,7 +28,7 @@ to the `site_tags` variable. -->
 <div>
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
-    <h2 class="left" id="{{ this_word | slugify }}">{{ this_word }}</h2>
+    <h2 id="{{ this_word | slugify }}">{{ this_word }}</h2>
     {% for post in site.tags[this_word] %}{% if post.title != null %}
       <div>
         <span class="left">
