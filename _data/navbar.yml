@@ -1,23 +1,23 @@
 - menu: Home
   link: http://chipprogrammers.github.io
-  icon: http://chipprogrammers.github.io/amplify/svg/home.svg
+  icon: home.svg
  
 - menu: Blog
   link: https://chipprogrammers.github.io/blog
-  icon: http://chipprogrammers.github.io/amplify/svg/pencil.svg
+  icon: pencil.svg
 
 - menu: Docs
   link: https://chipprogrammers.github.io/Documentation
-  icon: http://chipprogrammers.github.io/amplify/svg/document.svg
+  icon: document.svg
   
 - menu: Github
   link: http://github.com/chipprogrammers
-  icon: http://chipprogrammers.github.io/amplify/svg/github.svg
+  icon: github.svg
   
 - menu: Resume
   link: http://chipprogrammers.github.io/online-cv
-  icon: http://chipprogrammers.github.io/amplify/graph.svg
+  icon: graph.svg
 
 - menu: Sitemap
   link: https://chipprogrammers.github.io/sitemap.xml
-  icon: http://chipprogrammers.github.io/amplify/rss.svg
+  icon: rss.svg
