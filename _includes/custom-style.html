@@ -2184,6 +2184,9 @@ amp-carousel .ampstart-image-with-caption {
   font-weight: inherit;
   line-height: 1.14782
 }
+{% for i in site.data.navbar %}
+ampstart-faq-item::before{content:"{{ i.icon | prepend: site.baseurl | prepend: site.url }}"}
+{% endfor %}
  .highlight pre code *{white-space:nowrap;}
 .highlight pre{overflow-x:auto;}
 .highlight pre code{white-space:pre;}
