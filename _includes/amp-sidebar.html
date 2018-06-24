@@ -56,7 +56,7 @@
 </ul>
     <ul class="ampstart-sidebar-faq list-reset m0">
        {% for x in site.data.navbar %}
-          <li class="ampstart-faq-item"><span class="inline-block">{{ x.icon }}<a href="{{ x.link }}" class="text-decoration-none"> {{ x.menu }}</a></span></li>
+          <li class="ampstart-faq-item"><a href="{{ x.link }}" class="text-decoration-none"> {{ x.menu }}</a></li>
        {% endfor %}
     </ul>
 </amp-sidebar>
