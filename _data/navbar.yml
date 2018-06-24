@@ -1,23 +1,23 @@
 - menu: Home
   link: http://chipprogrammers.github.io
-  icon: fas fa-home
+  icon: http://chipprogrammers.github.io/amplify/svg/home.svg
  
 - menu: Blog
   link: https://chipprogrammers.github.io/blog
-  icon: fas fa-pencil-alt
+  icon: http://chipprogrammers.github.io/amplify/svg/pencil.svg
 
 - menu: Docs
   link: https://chipprogrammers.github.io/Documentation
-  icon: fas fa-file
+  icon: http://chipprogrammers.github.io/amplify/svg/document.svg
   
 - menu: Github
   link: http://github.com/chipprogrammers
-  icon: fab fa-github
+  icon: http://chipprogrammers.github.io/amplify/svg/github.svg
   
 - menu: Resume
   link: http://chipprogrammers.github.io/online-cv
-  icon: fa fa-paper-plane
+  icon: http://chipprogrammers.github.io/amplify/graph.svg
 
 - menu: Sitemap
   link: https://chipprogrammers.github.io/sitemap.xml
-  icon: fas fa-rss
+  icon: http://chipprogrammers.github.io/amplify/rss.svg
