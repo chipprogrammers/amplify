@@ -2,9 +2,9 @@
 <html ⚡ lang="en">
   <head>
  {% include head.html %}
- {% include custom-style-min.html %}
+ {% include custom-style.html %}
  <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
- <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>  
+ <!-- <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script> -->
   </head>
   <body>
     {% include header.html %}
@@ -52,15 +52,14 @@
    <h4>Spread this words via:</h4>
   {% include amp-social-share.html %}
 
- <amp-iframe width="600" height="300"
+ <!-- <amp-iframe width="600" height="300"
             frameborder="0"
             layout="responsive"
             sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
             resizable
-            src="https://comments.cenchat.com/embeds/1.0.0/universal.js">
-    
-    <div id="cenchat-comments" data-page-id="{{ page.url | prepend: site.baseurl | prepend: site.url }}" overflow tabindex=0 role=button aria-label="cenchat">Comments</div>
-</amp-iframe>
+            src="https://res.cloudinary.com/chipprogrammer/raw/upload/v1529487368/Blog/disqus-amp.html">
+    <div overflow tabindex=0 role=button aria-label="Disqus">Disqus</div>
+</amp-iframe> -->
 </div>
    </main>
  </div>
