@@ -8,7 +8,7 @@
 
 - menu: Docs
   link: https://chipprogrammers.github.io/Documentation
-  icon: document
+  icon: file-text
   
 - menu: Github
   link: http://github.com/chipprogrammers
@@ -16,7 +16,7 @@
   
 - menu: Resume
   link: http://chipprogrammers.github.io/online-cv
-  icon: graph
+  icon: graduation-cap
 
 - menu: Sitemap
   link: https://chipprogrammers.github.io/sitemap.xml
