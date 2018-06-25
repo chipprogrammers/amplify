@@ -7,6 +7,7 @@ markdown: kramdown
 disqusEmbedd: "https://chipprogrammers.github.io/disqus-amp/"
 
 google-analytics: UA-89660760-2
+data-ad-client: 7300212199014697
 
 paginate: 4
 paginate_path: "/blog/page:num/"
