@@ -31,7 +31,7 @@ Following posts makes use of the Sutras and Sub-Sutras stated above for presenta
 <blockquote> eg: A bar on <amp-mathml layout="container" inline data-formula="\[\overline 7\]"></amp-mathml> is written as 7. It is called Rekhank 7 or bar 7. We treat Purak as a Rekhank. For example, <amp-mathml layout="container" inline data-formula="\[\overline 7\]"></amp-mathml> is 3 and <amp-mathml layout="container" inline data-formula="\[\overline 3\]"></amp-mathml> is 7.
   At some instances we write negative numbers also with a bar on the top of the numbers as:
   -4 can be shown as <amp-mathml layout="container" inline data-formula="\[\overline 4\
-  ]"></amp-mathml>-21 can shown as <amp-mathml layout="container" inline data-formula="\[\overline 21\]"></amp-mathml></blockquote>
+  ]"></amp-mathml>-21 can shown as <amp-mathml layout="container" inline data-formula="\[\overline{21}\]"></amp-mathml></blockquote>
 
 * **Beejank:** The Sum of the digits of a number is called Beejank. If the addition is a two digit number, then these two digits are also to be added up to get a single digit.
 <blockquote>e.g: Beejank of 27 is 2 + 7 = 9.
